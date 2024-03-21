@@ -1,0 +1,36 @@
+.header {
+  color: red;
+  text-align: center;
+}
+.para {
+  text-align: center;
+  color: beige;
+  font-weight: 900;
+}
+.code {
+  color: lightsalmon;
+  text-align: center;
+}
+.correct {
+  text-align: center;
+  color: blue;
+}
+.error {
+  text-align: center;
+  color: red;
+}
+/* .student table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.student td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+.student table th {
+  width: 200px;
+} */

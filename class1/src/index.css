@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gentium Plus", serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0;
+}
+h2 {
+  margin: 10px 0;
+}
+h3 {
+  margin: 10px 0;
+}
+p {
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+}
+.card-container {
+  background-color: #353b48;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 100%;
+  color: whitesmoke;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.pro {
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 2px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.img {
+  border: 2px solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.online {
+  background-color: blue;
+}
+.offline {
+  background-color: green;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button.primary {
+  background-color: #0984e3;
+  border: 1px solid #0984e3;
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: white;
+  padding: 10px 25px;
+}
+
+button.primary.outline {
+  background-color: transparent;
+}
+.skills {
+  background-color: #2f3648;
+  text-align: left;
+  padding: 10px;
+}
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills ul li {
+  border: 1px solid #595180;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 7px;
+  margin: 0 7px 7px 0;
+  font-size: 12px;
+}
